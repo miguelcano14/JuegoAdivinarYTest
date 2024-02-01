@@ -42,7 +42,7 @@ public class JuegoVista implements JuegoInterfaz {
         botonReset.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                controlador.reiniciarJuego(); // Llama al método reiniciarJuego del controlador
+                controlador.reiniciarJuego(); // método reiniciarJuego del controlador
             }
         });
 

@@ -18,7 +18,7 @@ public class JuegoVista implements JuegoInterfaz {
         panelPrincipal = new JPanel();
         panelPrincipal.setLayout(new GridLayout(7, 1));
 
-        JLabel etiquetaInstrucciones = new JLabel("Intenta adivinar el número entre el 1 y el 100:");
+        JLabel etiquetaInstrucciones = new JLabel("Intenta adivinar el número entre el 0 y el 100:");
         jugador = new JTextField(10);
         JButton botonAdivinar = new JButton("Adivinar");
         JButton botonReset = new JButton("Resetear Juego");

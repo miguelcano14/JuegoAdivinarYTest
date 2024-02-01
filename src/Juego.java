@@ -1,4 +1,7 @@
 // Importar las clases necesarias de Swing y AWT
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+
 import javax.swing.*;
 import java.awt.*;
 
